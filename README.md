@@ -1,6 +1,7 @@
 # SQLi
 
-## Altoromutual, a web application intentionally designed with vulnerabilities for practice, revealed a SQL injection flaw when I encountered a syntax error indicating improper input handling. This discovery led me to test various SQL injection payloads, such as ' OR 1=1-- and ' OR '1'='1' --, which manipulated the SQL query to bypass authentication checks and gain unauthorized access by making the query always return true or commenting out parts of the query.
+## Altoromutual, a web application intentionally designed with vulnerabilities for practice, revealed a SQL injection flaw when I encountered a syntax error indicating improper input handling. This discovery underscored how SQL injection can be exploited by attackers if developers are lax or unaware of its risks. To test this vulnerability, I used payloads like ' OR 1=1-- and ' OR '1'='1' --, which manipulated the SQL query to bypass authentication checks and gain unauthorized access. From this, I learned the importance of implementing preventive measures such as using Prepared Statements, which separate SQL code from user inputs, ensuring that inputs are treated as data rather than executable code.
+
 
 ### Altoromutual is a deliberately vulnerable web application designed for practicing SQL injection in a controlled environment.
 ![SQLi](https://github.com/user-attachments/assets/47d1c5a7-3c2a-4951-9c05-ed870c6485c7)
