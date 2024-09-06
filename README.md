@@ -7,3 +7,6 @@
 
 ### In my testing, I used SQL injection payloads like ' OR 1=1-- and ' OR '1'='1' -- to exploit the vulnerability and bypass authentication checks. By injecting these conditions, I manipulated the SQL query to always return true or comment out the rest of the query, which allowed me to gain unauthorized access.
 ![ACTUAlCODE2 3](https://github.com/user-attachments/assets/bd470ce1-ca3a-42b9-a4d3-399090768e6b)
+
+#### Here is the result.
+![insidethewebsite3](https://github.com/user-attachments/assets/8b40cc3c-e8ca-46d5-a8c6-0caef4b5eda2)
